@@ -9,7 +9,7 @@ def test(*args, **kwargs):
             status = notification.notification_status
             
 def test(*args, **kwargs):
-    notification_id = request.view_args.get('id', 0)
+    notification_id = request.view_args.get('id', 0)sadsadsadsa
     subject = _('Notification')
     status = NotificationStatus.SEEN.value
     if notification_id != 0:
